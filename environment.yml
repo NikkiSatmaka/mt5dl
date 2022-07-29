@@ -1,0 +1,17 @@
+name: null
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python
+  - pip
+  - pytz
+  - ipykernel
+  - numpy
+  - pandas
+  - ta-lib
+
+  - pip:
+    - MetaTrader5
